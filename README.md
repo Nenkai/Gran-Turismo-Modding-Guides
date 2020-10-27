@@ -1,8 +1,13 @@
 # Gran-Turismo-5-6-Modding-Guides
 Modding guides for PS3-era Gran Turismo.
 
-# Table of Contents
-0. File Unpacking/Packing
+## Prerequisites
+* Understanding how Command Prompt/`cmd` works and openning it in a current openned folder.
+* Windows, obviously.
+* At least 20-30Gbs of space for each game that you want to mod.
+
+## Table of Contents
+0. Dealing with file packing/repacking, understanding Patch File System (PDIPFS).
 	1. Unpacking
 	2. Repacking
 
