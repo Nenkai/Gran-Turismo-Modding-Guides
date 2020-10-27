@@ -23,9 +23,10 @@ Modding guides for PS3-era Gran Turismo.
 	2. [Creating an Event](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/1.%20Events/Creating_Events.md)
 	3. Creating an Event Image
 
-2. Image Editing
-	1. TXS3/.img Files
-	2. Converting back and forth
+2. [Image Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/2.%20Image%20Editing/Image_Editing.md)
+	1. [TXS3/.img Files](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/2.%20Image%20Editing/Image_Editing.md)
+	2. [TXS3->Normal Image](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/2.%20Image%20Editing/Image_Editing.md#img-to-png)
+	3. [Normal Image->TXS3](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/2.%20Image%20Editing/Image_Editing.md#pngjpgbmp-to-img)
 	
 3. String/Text Editing
 	1. RT2 Localization System
