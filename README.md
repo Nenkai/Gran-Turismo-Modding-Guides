@@ -15,9 +15,12 @@ Modding guides for PS3-era Gran Turismo.
 	3. [Advanced Notes](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/0.%20Understanding%20PDIPFS/Understanding_PDIPFS.md#technical-details-about-pdipfs-advanced)
 
 1. Custom Events
-	1. Creating an Event
-	2. Adding it to the game
-	3. Creating an Event Image
+	1. [Creating a Folder](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/1.%20Events/Creating_Folders.md)
+		1. [(GT5) Creating a new Event Folder](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/1.%20Events/Creating_Folders.md#gt5-creating-a-new-event-folder)
+		2. [(GT6) Creating a new Event Folder](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/1.%20Events/Creating_Folders.md#gt6-creating-a-new-event-folder)
+	2. Creating an Event
+	3. Adding it to the game
+	4. Creating an Event Image
 
 2. Image Editing
 	1. TXS3/.img Files
