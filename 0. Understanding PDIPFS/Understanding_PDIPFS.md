@@ -15,6 +15,7 @@ The base retail version of both games contain a `GT.VOL` file that is several gi
 
 You can unpack this file located in your game disc, and your whole `PDIPFS` to have a completely extracted game. It is recommended to have both extracted.
 
+* Transfer `PDIPFS` and `GT.VOL` to your PC.
 * Download [GTToolsSharp](https://github.com/Nenkai/GTToolsSharp/releases) and extract the zip file. Once that is done, open `cmd` in the folder where you've extracted it.
 * Place your `PDIPFS` folder or `GT.VOL` file in that folder. 
 * Run the tool as such `GTToolsSharp unpack -i <PDIPFS/GT.VOL> -o <output_folder>` where `output_folder` is the folder that the game files will be extracted to. 
