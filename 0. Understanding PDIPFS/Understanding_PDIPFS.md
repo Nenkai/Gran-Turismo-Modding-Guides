@@ -35,9 +35,8 @@ You will need:
    * (Recommended) a backup of the file `K/4D` in your `PDIPFS` folder. It can be used to easily revert to vanilla.
 
 Run the tool as such:
-
-	* Run: `GTToolsSharp pack -i PDIPFS -p <Your Mod Folder i.e MyMod> -o MyModPacked`
-	* Once that is done, your mod ready to be transfered to your console will be at `MyModPacked` folder or whatever you've specified.
+   * Run: `GTToolsSharp pack -i PDIPFS -p <Your Mod Folder i.e MyMod> -o MyModPacked`
+   * Once that is done, your mod ready to be transfered to your console will be at `MyModPacked` folder or whatever you've specified.
 
 
 If you wish to revert your mod simply transfer your backed up `K/4D` file into your console's game folder PDIPFS.
