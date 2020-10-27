@@ -42,6 +42,15 @@ Run the tool as such:
 
 If you wish to revert your mod simply transfer your backed up `K/4D` file into your console's game folder PDIPFS.
 
+## Removing Files from the Game
+
+Sometimes you might want to remove files from the game completely so that the game doesn't read them. GTToolsSharp supports this use case.
+
+In the GTToolsSharp folder, create a file named `files_to_remove.txt`. Each line has to be a path of a game path to remove. 
+
+If you wanted to remove `/textdata/gt5/aspec_event/r100.xml` from the game, you would just put it there as one line.
+
+
 ## Technical Details about PDIPFS (Advanced)
 *From https://github.com/Nenkai/GTToolsSharp#advanced-packing-notes-modders-read*
 
