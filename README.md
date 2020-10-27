@@ -7,7 +7,7 @@ Modding guides for PS3-era Gran Turismo.
 * At least 20-30Gbs of space for each game that you want to mod.
 
 ## Table of Contents
-0. File Unpacking/Packing
+0. Dealing with file packing/repacking, understanding Patch File System (PDIPFS).
 	1. Unpacking
 	2. Repacking
 
