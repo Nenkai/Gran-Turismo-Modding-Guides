@@ -4,7 +4,7 @@ Modding guides for PS3-era Gran Turismo.
 ## Prerequisites
 * Understanding how Command Prompt/`cmd` works and openning it in a current openned folder.
 * Windows, obviously.
-* At least 20-30Gbs of space for each game that you want to mod.
+* At least 30-40Gbs of space for each game that you want to mod.
 * Modded Console.
 * Knowing how to FTP inside your console.
 * If modding GT6: [GT6 Master Mod](http://www.mediafire.com/file/wvk90is9akl6654/GT6_1.22_Master_Mod_1.0.1_Universal.zip/file) to use as base - extract it later on and use it to make your mod - **for 1.22/latest only.**
