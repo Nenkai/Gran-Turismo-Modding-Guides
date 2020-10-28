@@ -21,7 +21,9 @@ Modding guides for PS3-era Gran Turismo.
 		1. [(GT5) Creating a new Event Folder](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/1.%20Events/Creating_Folders.md#gt5-creating-a-new-event-folder)
 		2. [(GT6) Creating a new Event Folder](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/1.%20Events/Creating_Folders.md#gt6-creating-a-new-event-folder)
 	2. [Creating an Event](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/1.%20Events/Creating_Events.md)
-	3. Creating an Event Image
+	3. [Creating an Event Image](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/1.%20Events/Creating_And_Event_Image.md)
+		1. [GT5](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/1.%20Events/Creating_And_Event_Image.md#gt5)
+		2. [GT6](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/1.%20Events/Creating_And_Event_Image.md#gt6)
 
 2. [Image Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/2.%20Image%20Editing/Image_Editing.md)
 	1. [TXS3/.img Files](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/2.%20Image%20Editing/Image_Editing.md)
