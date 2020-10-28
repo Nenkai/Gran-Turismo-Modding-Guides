@@ -1,21 +1,24 @@
-# Image Editing
+# Creating an Event/Folder Image
 
-PS3-era and even GTPSP uses "TXS3" as an image format, which is pretty much just DDS.
+*To create an image refer to [Image Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/2.%20Image%20Editing/Image_Editing.md)*.
 
-[TXS3Converter](https://github.com/Nenkai/TXS3Converter/releases/tag/1.1.3) can convert standard images (.png, .jpg, etc) into that format. Download it and extract it.
+Any event will still work without an image.
 
-You'll also need to download and place [TeXConv](https://github.com/microsoft/DirectXTex/releases) in the same folder.
+## GT5
+Only GT5 folders can have images. 
 
-Most of them are located in the `piece` global folder.
+The event images are located at `piece\flyer` and their dimensions are `860x360`. They must be named according to your event id file. 
 
-# .img to .png
+If your event xml is `r1000.xml`, your image must sit there as `r1000.img`. 
 
-* Open `cmd` in that folder and place your `.img` file in the tool folder. 
-* Run `TXS3Converter <your image file`.
+## GT6
+GT6 can have both folder and event images.
 
-If you're converting back later on you might want to take note of the image format that the tool prints into the console.
+* Folder images are available if you are using a regular folder (non-mission etc.)
+* Event images are available if you are using a non regular folder (missions, one-make, coffee break, license & endurance).
 
-# .png/jpg/bmp to .img
+Locations:
+* Regular folder images - `piece\gt6\event_flyer` - DXT1-3 - Must be named according to the folder name.
+* Event images - `piece\gt6\event_img` - DXT1-3 - 320x452 - Must be named according to the folder name.
 
-* Open `cmd` in that folder and place your standard image in the tool folder. 
-* Run `TXS3Converter --<DXT3/DXT5/DXT10> <your image file>`. You need to know the format before hand. Converting a .img file to normal image will show that.
+Additionally the [Event Generator](https://github.com/Nenkai/GTEventGenerator) supports outputting images.
