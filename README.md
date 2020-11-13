@@ -7,7 +7,7 @@ Modding guides for PS3-era Gran Turismo.
 * At least 30-40Gbs of space for each game that you want to mod.
 * Modded Console.
 * Knowing how to FTP inside your console.
-* If modding GT6: [GT6 Master Mod](http://www.mediafire.com/file/wvk90is9akl6654/GT6_1.22_Master_Mod_1.0.1_Universal.zip/file) to use as base - extract it later on and use it to make your mod - **for 1.22/latest only.**
+* If modding GT6: [GT6 Mod Base](http://www.mediafire.com/folder/8d08of132m00y/GT6+Mod+Base) to use as base - extract it later on and use it to make your mod - **for 1.22/latest only.**
 
 ## Table of Contents
 0. [Dealing with file unpacking/repacking, understanding PDIPFS](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/0.%20Understanding%20PDIPFS/Understanding_PDIPFS.md)
