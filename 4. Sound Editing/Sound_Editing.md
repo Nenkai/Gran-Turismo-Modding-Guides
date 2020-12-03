@@ -66,10 +66,8 @@ The following list does not cover all of the AES paramters, but describes the cu
 
 ## AESSlot
 
-* `output_scale` - General volume, similar to `aes_volume`.
-
 Parameter | Name | Description
------------- | -------------
+------------ | ------------- | -------------
 stroke_type | Engine Type | 1 = four stroke (most common engine type), 0 = two stroke (mostly smaller bike/kart engines) - setting to two stroke drastically increases the pitch of the sound.
 n_cylinders | Cylinder Count | The number of cylinders the engine has. This corresponds with the timing values below to generate the correct sound for the engine.
 n_bank | Cylinder Head Count | How many cylinder heads the car has (e.g. 1 = inline/straight, 2 = V)
