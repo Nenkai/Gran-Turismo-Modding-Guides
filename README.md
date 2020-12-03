@@ -35,11 +35,12 @@ Modding guides for PS3-era Gran Turismo.
 	1. [Understanding the RT2 localization system](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/3.%20String%20Editing/String_Editing.md#understanding-the-rt2-localization-system)
 	2. [Editing Strings](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/3.%20String%20Editing/String_Editing.md#editing-strings)
 
-4. Sound Editing
-	1. AES Sounds
-	2. ESGX Sounds
-	2. Musics
-	3. Playlist Editing
+4. [Sound Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/4.%20Sound%20Editing/Sound_Editing.md)
+	0. [Car Engine Sound Structure] (https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/4.%20Sound%20Editing/Sound_Editing.md#car-engine-sound-structure)
+	1. [ESGX Sounds](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/4.%20Sound%20Editing/Sound_Editing.md#esgx-sounds)
+	2. [AES Sounds (GT6)](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/4.%20Sound%20Editing/Sound_Editing.md#aes-sounds)
+	3. Musics
+	4. Playlist Editing
 
 5. Code Editing
 	1. Understanding Adhoc Scripts
