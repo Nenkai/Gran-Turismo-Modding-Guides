@@ -66,38 +66,46 @@ The following list does not cover all of the AES paramters, but describes the cu
 
 ## AESSlot
 
+* `output_scale` - General volume, similar to `aes_volume`.
+
 Parameter | Name | Description
------------- | ------------- | -------------
-stroke_type | Engine Type | 1 = four stroke (most common engine type), 0 = two stroke (mostly smaller bike/kart engines) - setting to two stroke drastically increases the pitch of the sound.
-n_cylinders | Cylinder Count | The number of cylinders the engine has. This corresponds with the timing values below to generate the correct sound for the engine.
-n_bank | Cylinder Head Count | How many cylinder heads the car has (e.g. 1 = inline/straight, 2 = V)
-displacement_cc | Cubic Capacity | The cubic capacity of the engine - larger values appear to slightly "deepen" the sound.
-idle_rpm | Idle RPM | Self explanatory but appears to have no effect.
-revlimit_rpm | Rev Limiter RPM | Self explanatory but appears to have no effect.
-ex_apf_g | All Pass Filter Gain | Generally affects the loudness and "smoothness" of the sound.
-ex_duct_r | Exhaust Duct Radius | Higher values are more raspy but lose some bass (Minimum 0.01)
-ex_lpf_fc | N/A | Reduces signals with a frequency from 0Hz to the specified number, reducing bass.
-ex_temp | Exhaust Temperature | In Celsius. Higher values appear to make the sound slightly deeper.
-exend_dia | Exhaust Tip Diameter | Lower values slightly increase the pitch of the sound, higher slightly decreases.
-exend_fb_hf | Exhaust High Frequency Filter | A value closer to 1 lessens higher frequencies (i.e. treble reduction).
-exend_fb_lf | Exhaust Low Frequency Filter | A value closer to 1 lessens lower frequencies (i.e. bass reduction).
-expipe_dia | Exhaust Pipe Diameter | Similar to `exend_dia`.
-expipe_len | Exhaust Pipe Length | Longer results in a slightly more harsh sound.
-flownoise_level | N/A | How much of a "blowing" noise the exhaust has - having a small to moderate value for this generally sounds realistic. A value of around -120 will usually entirely eliminate the blowing.
-misfire_rate | Engine Misfire Rate | How often the engine misfires. A non-zero value will typically generate some pops and bangs from the exhaust when suddenly accelerating or letting off.
-misfire_thr_sens | Misfire Throttle Sensitivity | Increasing this will cause the pops and bangs of any misfires to be more sensitive to the throttle.
-output_scale | General Volume | Similar to `aes_volume`.
+------------ | ------------- | -----------
+`stroke_type` | Engine Type | 1 = four stroke (most common engine type), 0 = two stroke (mostly smaller bike/kart engines) - setting to two stroke drastically increases the pitch of the sound.
+`n_cylinders` | Cylinder Count | The number of cylinders the engine has. This corresponds with the timing values below to generate the correct sound for the engine.
+`n_bank` | Cylinder Head Count | How many cylinder heads the car has (e.g. 1 = inline/straight, 2 = V)
+`displacement_cc` | Cubic Capacity | The cubic capacity of the engine - larger values appear to slightly "deepen" the sound.
+`idle_rpm` | Idle RPM | Self explanatory but appears to have no effect.
+`revlimit_rpm` | Rev Limiter RPM | Self explanatory but appears to have no effect.
+`ex_apf_g` | All Pass Filter Gain | Generally affects the loudness and "smoothness" of the sound.
+`ex_duct_r` | Exhaust Duct Radius | Higher values are more raspy but lose some bass (Minimum 0.01)
+`ex_lpf_fc` | N/A | Reduces signals with a frequency from 0Hz to the specified number, reducing bass.
+`ex_temp` | Exhaust Temperature | In Celsius. Higher values appear to make the sound slightly deeper.
+`exend_dia` | Exhaust Tip Diameter | Lower values slightly increase the pitch of the sound, higher slightly decreases.
+`exend_fb_hf` | Exhaust High Frequency Filter | A value closer to 1 lessens higher frequencies (i.e. treble reduction).
+`exend_fb_lf` | Exhaust Low Frequency Filter | A value closer to 1 lessens lower frequencies (i.e. bass reduction).
+`expipe_dia` | Exhaust Pipe Diameter | Similar to `exend_dia`.
+`expipe_len` | Exhaust Pipe Length | Longer results in a slightly more harsh sound.
+`flownoise_level` | N/A | How much of a "blowing" noise the exhaust has - having a small to moderate value for this generally sounds realistic. A value of around -120 will usually entirely eliminate the blowing.
+`misfire_rate` | Engine Misfire Rate | How often the engine misfires. A non-zero value will typically generate some pops and bangs from the exhaust when suddenly accelerating or letting off.
+`misfire_thr_sens` | Misfire Throttle Sensitivity | Increasing this will cause the pops and bangs of any misfires to be more sensitive to the throttle.
+`output_scale` | General Volume | Similar to `aes_volume`.
 
-##AESTiming
-The values here apply to each cylinder in the car's engine. Each cylinder has the following four values (e.g. c01_ca, c01_delay, c02_ca, etc.):
-* ca - Crank Angle - The ordering of the current cylinder relative to the car's crank angle ((720 / number of cylinders ) * current cylinder). c01 should typically be 0, so a four cylinder engine would go c01_ca = 0, c02_ca = 180, etc. This can however be shuffled or slightly mis-timed to make the engine sound more aggressive or deeper.
-* delay - The delay of the cylinder's firing relative to the crank angle - can be used to affect the firing order of the engine to differentiate between different types (e.g. a 2JZ and RB26 are both inline six engines, but have a different firing order and therefore a different sound).
-* exext - Exhaust/Extractor - not fully understood but appears to slightly affect timing along with ca and delay.
-* inext - Not fully understood but appears to have no effect.
+## AESTiming
+The values here apply to each cylinder in the car's engine. Each cylinder has the following four values (e.g. `c01_ca`, `c01_delay`, `c02_ca`, etc.):
 
-##AESMisc
-* aes_enable - Toggles the AES sound.
-* aes_volume - How loud the AES sound is - not a global value as many factors such as filters, exhaust parameters, and output_scale can also influence the volume.
-* esgx_enable - Enables an ESGX sample to be used for the engine sound of the car, while AES is used for the exhaust. Only works if an ESGX sample is present in carsound\engine with the same number as the AES file.
-* esgx_volume - How loud the ESGX engine source is.
-* esgx_pitch_scale - Affects the pitch of the ESGX engine to allow for fine-tuning to better match the exhaust AES.
+
+Parameter | Name | Description
+------------ | ------------- | -----------
+`ca` | Crank Angle | The ordering of the current cylinder relative to the car's crank angle ((720 / number of cylinders ) * current cylinder). `c01` should typically be 0, so a four cylinder engine would go `c01_ca` = 0, `c02_ca` = 180, etc. This can however be shuffled or slightly mis-timed to make the engine sound more aggressive or deeper.
+`delay` | Firing Delay relative to Crank Angle | Can be used to affect the firing order of the engine to differentiate between different types (e.g. a 2JZ and RB26 are both inline six engines, but have a different firing order and therefore a different sound).
+`exext` | Exhaust/Extractor | Not fully understood but appears to slightly affect timing along with ca and delay.
+`inext` | N/A | Not fully understood but appears to have no effect.
+
+## AESMisc
+Parameter | Name | Description
+------------ | ------------- | -----------
+`aes_enable` | AES Enable | Toggles the AES sound.
+`aes_volume` | AES Sound Volume | How loud the AES sound is - not a global value as many factors such as filters, exhaust parameters, and `output_scale` can also influence the volume.
+`esgx_enable` | ESGX Enable | Enables an ESGX sample to be used for the engine sound of the car, while AES is used for the exhaust. Only works if an ESGX sample is present in carsound\engine with the same number as the AES file.
+`esgx_volume` | ESGX Volume | How loud the ESGX engine source is.
+`esgx_pitch_scale` | ESGX Pitch Scale |  Affects the pitch of the ESGX engine to allow for fine-tuning to better match the exhaust AES.
