@@ -42,9 +42,11 @@ Add a row as such (where xxx is your event ID):
 Important: **Ensure that the row and labels are in order.** The last row in the `rt2` must not be below any of the other ids as its last row.
 
 Wrong: 
+
 ![Wrong](https://cdn.discordapp.com/attachments/776106493110911016/783443866220101642/unknown.png)
 
 Correct:
+
 ![Correct](https://cdn.discordapp.com/attachments/776106493110911016/783444140415385621/unknown.png)
 
 ## (GT6) Creating a new Event Folder
