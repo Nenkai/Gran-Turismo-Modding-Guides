@@ -26,6 +26,26 @@ For GT5, you can refer to the `gamelist.xml` in the `aspec_race` folder to figur
 * `event_count`: Event count in that folder.
 * `is_championship`: Whether the folder is a championship where you cannot start an individual event.
 
+### GT5 Folder Title/Description
+*The section about [Editing Strings](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/3.%20String%20Editing/String_Editing.md#stringtext-editing) is required for this step.*
+
+In order to add or edit new event information, you will need to do some `rt2` editing.
+
+Open the `projects/gt5/gtmode/<locale>` folder into the GT.RText tool. Go to the `ASpecEventName` or `BSpecEventName`.
+
+Add a row as such (where xxx is your event ID):
+* r`xxx`**d** - For your description
+* r`xxx`**t** - For your title
+* r`xxx`**c** - For your caption.
+
+
+Important: **Ensure that the row and labels are in order.** The last row in the `rt2` must not be below any of the other ids as its last row.
+
+Wrong: 
+![Wrong](https://cdn.discordapp.com/attachments/776106493110911016/783443866220101642/unknown.png)
+
+Correct:
+![Correct](https://cdn.discordapp.com/attachments/776106493110911016/783444140415385621/unknown.png)
 
 ## (GT6) Creating a new Event Folder
 In GT6 compared to GT5 the process has been changed (and made a lot more flexible). GT6 uses a sqlite database to store folder data. You will need something like [SQLiteStudio](https://sqlitestudio.pl/) to edit it.
