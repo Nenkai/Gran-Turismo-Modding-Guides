@@ -30,8 +30,9 @@ Modding guides for PS3-era Gran Turismo.
 	2. [TXS3->Normal Image](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/2.%20Image%20Editing/Image_Editing.md#img-to-png)
 	3. [Normal Image->TXS3](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/2.%20Image%20Editing/Image_Editing.md#pngjpgbmp-to-img)
 	
-3. String/Text Editing
-	1. RT2 Localization System
+3. [String/Text Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/3.%20String%20Editing/String_Editing.md#stringtext-editing)
+	1. [Understanding the RT2 localization system](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/3.%20String%20Editing/String_Editing.md#understanding-the-rt2-localization-system)
+	2. [Editing Strings](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/3.%20String%20Editing/String_Editing.md#editing-strings)
 
 4. Sound Editing
 	1. AES Sounds
