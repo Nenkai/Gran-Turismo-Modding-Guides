@@ -36,7 +36,7 @@ Modding guides for PS3-era Gran Turismo.
 	2. [Editing Strings](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/3.%20String%20Editing/String_Editing.md#editing-strings)
 
 4. [Sound Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/4.%20Sound%20Editing/Sound_Editing.md)
-	0. [Car Engine Sound Structure] (https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/4.%20Sound%20Editing/Sound_Editing.md#car-engine-sound-structure)
+	0. [Car Engine Sound Structure](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/4.%20Sound%20Editing/Sound_Editing.md#car-engine-sound-structure)
 	1. [ESGX Sounds](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/4.%20Sound%20Editing/Sound_Editing.md#esgx-sounds)
 	2. [AES Sounds (GT6)](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/4.%20Sound%20Editing/Sound_Editing.md#aes-sounds)
 	3. Musics
@@ -49,3 +49,8 @@ Modding guides for PS3-era Gran Turismo.
 6. Car Editing
 	
 7. Useful Resources
+
+
+## Credits
+- Nenkai#9075 - Base Guide
+- TheAdmiester - All Sound Related Guides
