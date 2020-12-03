@@ -62,9 +62,9 @@ Although there is usually a lot of fine-tuning required to get the loops to run 
 
 `AES` sounds are the same across all exhaust upgrade levels and have no file extension unlike ESGX.
 
-Use an open any original `AES` file with the Definition Editor in the `carsound/aes` folder to use as a base. (Note: The tool cannot add/remove nodes yet, some bases may have more information to play with than others.)
+Use an open any original `AES` file with the Definition Editor in the `carsound/aes` folder to use as a base (Preferably the `60100` file). Note: The tool cannot add/remove nodes yet, some bases may have more information to play with than others.
 
-The following list does not cover all of the AES paramters, but describes the currently understood parameters and their effects.
+The following list does not cover all of the AES parameters, but describes the currently understood parameters and their effects.
 
 ## AESSlot
 
