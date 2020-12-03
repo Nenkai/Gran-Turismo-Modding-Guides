@@ -4,7 +4,7 @@ Gran Turismo 5 and 6 both use a sound format called `ESGX` for their vehicle sou
 
 # Car Engine Sound Structure
 
-In the carsound folder of Gran Turismo 5 and 6, there are multiple folders which follow a set structure:
+In the `carsound` folder of Gran Turismo 5 and 6, there are multiple folders which follow a set structure:
 
 * AES (GT6 only) - For cars using AES (for all exhaust upgrade levels)
 * `engine` - The sounds which should come from the engine of the car.
@@ -15,7 +15,7 @@ In the carsound folder of Gran Turismo 5 and 6, there are multiple folders which
 * `se` - Vehicle sound effects such as horns
 * `start` - Vehicle starter sounds (used when switching car)
 * `turbo0` - Turbocharged cars, for the stock level exhaust
-	* `turbo1 - For the sport level exhaust
+	* `turbo1` - For the sport level exhaust
 	* `turbo2` - For the semi-racing level exhaust
 	* `turbo3` - For the racing level exhaust
 
@@ -61,6 +61,8 @@ Although there is usually a lot of fine-tuning required to get the loops to run 
 `AES` (presumably Advanced Engine Synthesizer) is an detailed system which allows vehicles to generate entirely new sounds from scratch, without using any recordings. Editing these files requires [GT Standard Definition Editor](https://github.com/Nenkai/GTStandardDefinitionEditor). Note: A good level of vehicle engine and audio processing knowledge is required to make realistic sounds.
 
 `AES` sounds are the same across all exhaust upgrade levels and have no file extension unlike ESGX.
+
+Use an open any original `AES` file with the Definition Editor in the `carsound/aes` folder to use as a base. (Note: The tool cannot add/remove nodes yet, some bases may have more information to play with than others.)
 
 The following list does not cover all of the AES paramters, but describes the currently understood parameters and their effects.
 
