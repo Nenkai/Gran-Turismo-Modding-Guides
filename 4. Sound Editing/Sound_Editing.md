@@ -66,8 +66,6 @@ The following list does not cover all of the AES paramters, but describes the cu
 
 ## AESSlot
 
-* `output_scale` - General volume, similar to `aes_volume`.
-
 Parameter | Name | Description
 ------------ | ------------- | -----------
 `stroke_type` | Engine Type | 1 = four stroke (most common engine type), 0 = two stroke (mostly smaller bike/kart engines) - setting to two stroke drastically increases the pitch of the sound.
