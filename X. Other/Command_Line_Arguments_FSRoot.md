@@ -68,5 +68,10 @@ In the RPCS3 directory, create `app_home/`, paste your EXTRACTED folder there, t
 ```
 rpcs3.exe <path to EBOOT> fsroot:EXTRACTED
 ```
+
 ## 7. Notes
+This will create a `PDEV88888` folder in `dev_hdd0`. Files downloaded from your PC will be stored there, and only replaced when the remote files are different.
+On RPCS3 however the same process will occur, effectively storing extracted files twice.
+
+## 8. Other Arguments 
 TODO
