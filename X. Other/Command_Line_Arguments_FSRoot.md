@@ -73,5 +73,96 @@ rpcs3.exe <path to EBOOT> fsroot:EXTRACTED
 This will create a `PDEV88888` folder in `dev_hdd0`. Files downloaded from your PC will be stored there, and only replaced when the remote files are different.
 On RPCS3 however the same process will occur, effectively storing extracted files twice.
 
+To boot back into XMB set Reset Mode to `System Software Mode`.
+
 ## 8. Other Arguments 
-TODO
+Arguments are inserted by `<keyName>=<value>`, with a space between each additional argument.
+
+### General
+
+Argument| Type | Description
+------------ | ------------- | -----------
+`fsroot` | `0/1` | Loads from a custom path remotely, volume-less.
+`patchdemo` | `0/1` | ?
+`language` | `string (32 chars max)` | Sets the game language
+`player_name` | `string` | Sets the player name in events
+`specdb` | `string` | Sets the SpecDB path
+
+### Debug
+Argument| Type | Description
+------------ | ------------- | -----------
+`no_meter` | `0/1` | Whether to disable debug meters (debug build only)
+`grp_debug` | `0/1` | Whether to enable model/course/camera debug (debug build only)
+`sound_debug` | `0/1` | Whether to enable a quick menu race option to test sounds (debug build only, broken on release)
+`chromakey` | `0/1` | Green screen in races
+
+### Skipping
+Argument| Type | Description
+------------ | ------------- | -----------
+`disable_savedata` | `0/1` | Whether to disable saving completely
+`skip_tutorial` | `0/1` | Whether to skip tutorial on new saves
+`skip_op` | `0/1` | Whether to skip intro
+`no_autodemo` | `0/1` | Whether to disable demos
+`skip_present` | `0/1` | Whether to disable reward checks
+
+### Patching
+Argument| Type | Description
+------------ | ------------- | -----------
+`patch` | `0/1` | ?
+`patch_root` | `string` | ?
+`storagePatch` | `0/1` | ?
+
+### Internal
+Argument| Type | Description
+------------ | ------------- | -----------
+`branch` | `string` | Sets the game branch, can be `gt6/runviewer/academy/behavior`
+`gt5` | `0/1` | Whether to load projects with the gt5 product name rather than gt6
+`project_prefix` | `string` | ?
+`adhoc_trace_object` | `0/1` | ? (Possibly debug only)
+`design_work` | `0/1` | Whether to boot directly into design_work instead of dev_runviewer when branch is runviewer
+`no_package` | `0/1` | Whether to load projects from their ADC files rather than MPackage
+
+### Network
+Argument| Type | Description
+------------ | ------------- | -----------
+`grim` | `string` | ?
+`server_special_value` | `string` | Header Value for `X-gt-special` for the game to use
+`online_lounge` | `0/1` | Whether online lounge is available as runviewer
+`eula` | `0/1` | Whether EULA is forced to show
+`lanmode` | `0/1` | Whether LAN Mode is enabled
+`copudp` | `0/1` | ?
+`network_available` | `0/1` | Whether network is available, mainly for runviewer
+
+### Events
+Argument| Type | Description
+------------ | ------------- | -----------
+`expand_memory` | `0/1` | Whether to expand memory for races?
+`lap1` | `0/1` | All events are 1 lap
+`autorun_viewchange` | `0/1` | ?
+`result` | `?` | Result for events?
+`bspec` | `0/1` | Forces allowed bspec (?)
+`omedeto` | `0/1` | ?
+
+### Bot
+nobot - sets bot_on to False
+bot - sets bot_on to True
+nobothost - ?
+bottype - ?
+botgroup - ?
+botroom - ?
+botcrs - ?
+botstart - ?
+
+### Quickmatch
+matching_num - ?
+quickmatch (index) - ?
+quickmatch_index - ?
+quickmatch_old  - ?
+
+### Other
+
+Argument| Type | Description
+------------ | ------------- | -----------
+`demo_idx` | `int` | Auto demo index to play
+
+
