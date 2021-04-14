@@ -1,6 +1,6 @@
 # X.1 Gran Turismo 5/6 - AppOpt System/Command
 Both games allow command-line arguments to be provided to control the game at will.
-One of them lets you stream game contents over your PC, without a volume required.
+One of them lets you stream game contents over your PC, without a volume required **(GT6 only**).
 
 ## 1. Requirements
 - DEX FW Console with PS3 SDK installed (TMAPI) - Rebug D-REX 4.84 works.
@@ -66,7 +66,7 @@ Game should now boot.
 ## 6. RPCS3
 In the RPCS3 directory, create `app_home/`, paste your EXTRACTED folder there, then Boot RPCS3 as such with `cmd`:
 ```
-rpcs3.exe <path to EBOOT> fsroot:EXTRACTED
+rpcs3.exe <path to EBOOT> fsroot=EXTRACTED
 ```
 
 ## 7. Notes
