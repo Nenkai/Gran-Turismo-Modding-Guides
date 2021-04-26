@@ -42,11 +42,12 @@ Modding guides for PS3-era Gran Turismo.
 	4. Musics
 	5. Playlist Editing
 
-5. Code Editing
+5. [SpecDB/Car Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/5.%20SpecDB/SpecDB_Editing.md)
+	1. [Introduction](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/5.%20SpecDB/SpecDB_Editing.md)
+
+7. Code Editing
 	1. Understanding Adhoc Scripts
 	2. Editing Adhoc Compiled Scripts
-
-6. Car Editing
 	
 7. Useful Resources
 
