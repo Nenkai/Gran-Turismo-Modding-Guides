@@ -52,3 +52,8 @@ TODO cover more tables
 TODO
 
 * `car/race/<model_file>` model must exist or creating a car thumbnail, or going into a race will hard crash the game.
+* Ensure that NumColors in `GENERIC_CAR` matches the amount of linked rows in `VARIATION` or the Dealership will softlock.
+* Ensure that `CHASSIS` is properly linked and has valid data or the garage/race screen will stay black upon loading.
+* Ensure that `WHEEL` has existing model files in the `wheel` folder.
+* Ensure that every part in `DEFAULT_PARTS` actually links to part row that exists.
+* Ensure that the model code in `MODEL_INFO` is correct or the dealership will not display the car and softlock upon exiting.
