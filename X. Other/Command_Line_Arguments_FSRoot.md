@@ -132,6 +132,7 @@ Argument| Type | Description
 `lanmode` | `0/1` | Whether LAN Mode is enabled
 `copudp` | `0/1` | ?
 `network_available` | `0/1` | Whether network is available, mainly for runviewer
+`matching_num` | `1-16?` | Value to overrides the `racers_max` for any Quick Match event.
 
 ### Events
 Argument| Type | Description
