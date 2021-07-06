@@ -28,7 +28,7 @@ With that in mind, here is a basic example for editing a constant value.
 
     209DA|  21| 17| INT_CONST: 1024 (0x400)
 
-Let's say you wanted to edit 1024 to 500000. You would open the `.adc` file, go to `209DA`. The number itself is located at the next four bytes (int32), where 1024 would be `00 04 00 00`. You can use the data inspector that most hex editor have (HxD, 010) to edit the value easily. After which, setting the value to 500000 should change the bytes to `20 A1 07 00`. Then you can save.
+Let's say you wanted to edit 1024 to 500000. You would open the `.adc` file, go to `209DA`. The number itself is located at the next four bytes (int32), where 1024 would be `00 04 00 00`. You can use the data inspector that most hex editors have (HxD, 010) to edit the value easily. After which, setting the value to 500000 should change the bytes to `20 A1 07 00`. Then you can save.
 
 To verify that the change was made correctly, simply just dissasemble the edited file again. If no error shows up, you are good.
 
@@ -36,7 +36,7 @@ To verify that the change was made correctly, simply just dissasemble the edited
 Obviously there are more complex instructions and used incorrectly, can break the game loop. Depending on where it happens, the game may still continue to run. For instance, if the game crashed while in the middle of a menu, chances are the adhoc will crash and simply restart the project. However it crashes during its loading, this is essentially a softlock.
 
 One thing to look for in Adhoc when editing :
-* Any object that is not defined (aka null `nil` in adhoc) and then used is [null derefencing](https://en.wikipedia.org/wiki/Null_pointer).
+* Any object that is not defined (aka null `nil` in adhoc) and then used is [null derefencing](https://en.wikipedia.org/wiki/Uninitialized_variable).
 * Invalid operators between object types is essentially null derefencing aswell.
 * [The Stack](https://en.wikipedia.org/wiki/Stack_machine). Adhoc uses it. Editing instructions that plays with the stack will certainly break as it is not fully understood either.
 * Jump Instructions. You can essentially jump anywhere you want by editing the instruction target, so you can essentially also skip checks, but watch out for undefined objects aswell. 
