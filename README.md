@@ -49,7 +49,7 @@ Modding guides for PS3-era Gran Turismo.
 	1. [Introduction](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/Introduction.md)
 	2. [Editing Scripts](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/Scripts.md)
 	3. [UI Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/UI.md)
-	
+	4. [GPB Editing (Project Resources)](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/GPB_Resources.md)
 7. Useful Resources
 
 
