@@ -45,9 +45,10 @@ Modding guides for PS3-era Gran Turismo.
 5. [SpecDB/Car Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/5.%20SpecDB/SpecDB_Editing.md)
 	1. [Introduction](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/5.%20SpecDB/SpecDB_Editing.md)
 
-7. Code Editing
-	1. Understanding Adhoc Scripts
-	2. Editing Adhoc Compiled Scripts
+6. [The Adhoc Script Language/System](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/Introduction.md)
+	1. [Introduction](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/Introduction.md)
+	2. [Editing Scripts](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/Scripts.md)
+	3. [UI Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/UI.md)
 	
 7. Useful Resources
 
