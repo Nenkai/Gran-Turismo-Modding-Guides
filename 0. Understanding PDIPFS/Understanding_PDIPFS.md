@@ -3,7 +3,9 @@
 The Gran Turismo 5 & 6 and above uses a file system that allows editing existing files while keeping the actual original files intact. This allows for extremely easy modding and easy revert method.
 It was created with obfuscation and ease of file updating in mind.
 
-The `PDIPFS` folder is always located within the same game folder: `/dev_hdd0/game/<GAME_CODE>/PDIPFS/`
+First off, the **disc** version of both games contain a `GT.VOL` file that is several gigabytes big, it contains all of the game's assets compressed and encrypted into one single file. This file is within the disc, and is essentially all the base content of the games without its updates.
+
+The `PDIPFS` folder contains all the contents of the game updates, if PSN versions, it will contain **all** the game contents. It also contains the real-time install files (if applicable) - the files from the `GT.VOL` gets copied to the PDIPFS for HDD performance purposes. It is always located within the same game folder: `/dev_hdd0/game/<GAME_CODE>/PDIPFS/`
 
 You might notice that the folder contains hundreds and thousands of randomly named two chars file names. This is the obfuscated part so that you cannot figure out what a file really is.
 
@@ -11,17 +13,17 @@ Thankfully this has long been reverse engineered.
 
 ## Unpacking
 
-The base retail version of both games contain a `GT.VOL` file that is several gigabytes big, it contains all of the game's assets compressed and encrypted into one single file. 
-
 You can unpack this file located in your game disc, and your whole `PDIPFS` to have a completely extracted game. It is recommended to have both extracted.
 
-* Transfer `PDIPFS` and `GT.VOL` to your PC.
+* Transfer `PDIPFS` and `GT.VOL` to your PC. You are recommended to do it through USB if possible, especially for the PDIPFS. If you are doing it through FTP, the connection may drop, so you may have to edit some settings on your FTP client:
+  * Set simultaneous connections to 1
+  * Set transfer type to Binary
+  * Lower transfer speed by setting a limit. Setting it to full speed has high chances of dropping the connection.
 * Download [GTToolsSharp](https://github.com/Nenkai/GTToolsSharp/releases) and extract the zip file. Once that is done, open `cmd` in the folder where you've extracted it.
 * Place your `PDIPFS` folder or `GT.VOL` file in that folder. 
 * Run the tool as such `GTToolsSharp unpack -i <PDIPFS/GT.VOL> -o <output_folder>` where `output_folder` is the folder that the game files will be extracted to. 
 * You will get a message that the key file to decrypt the files was not found and a default one was created. Just run the game command again.
 * It will take some time to extract everything.
-
 
 ## Packing
 
@@ -51,7 +53,7 @@ In the GTToolsSharp folder, create a file named `files_to_remove.txt`. Each line
 If you wanted to remove `/textdata/gt5/aspec_event/r100.xml` from the game, you would just put it there as one line.
 
 
-## Technical Details about PDIPFS (Advanced)
+## Technical Details about PDIPFS (Advanced/Technical)
 *From https://github.com/Nenkai/GTToolsSharp#advanced-packing-notes-modders-read*
 
 Important things to know:
