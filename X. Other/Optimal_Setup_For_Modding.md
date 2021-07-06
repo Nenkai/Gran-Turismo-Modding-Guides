@@ -1,5 +1,5 @@
 # 7.1 - Optimal Setup for Modding
-As it may be tiring to always pack files for each edit being made, and or simply checking here is a simple table of things to do to remedy that process.
+As it may be tiring to always pack files for each edit being made, here is a simple table of things to do to remedy that process.
 
 ## Batch Script File
 Use a [Batch File](https://en.wikipedia.org/wiki/Batch_file) to pack the files for you and automatically transfer them over to your PS3 through FTP with [WinSCP](https://winscp.net/eng/download.php). 
