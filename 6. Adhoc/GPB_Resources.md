@@ -1,4 +1,4 @@
-# 6.3 - GPB Containers
+# 6.4 - GPB Containers
 `.gpb` Files are simply containers that stores resources for the current project. In general, all images stored in it despite their extensions (which may be `.png` or `.dds` are in the proprietary TXS3 format that can be converted back to a standard format (view [Image Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/2.%20Image%20Editing/Image_Editing.md) section).
 
 [GTAdhocTools](https://github.com/Nenkai/GTAdhocTools) can unpack `.gpb`, but also pack whole folders to one gpb file.

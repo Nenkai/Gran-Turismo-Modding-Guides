@@ -1,4 +1,4 @@
-# 6.0 Adhoc Script Language (Game Code/UI Editing)
+# 6.1 Adhoc Script Language (Game Code/UI Editing)
 ## 1. Introduction
 
 The Adhoc Scripting Language was introduced in Gran Turismo 4. It is an in-house developed custom scripting language by Polyphony Digital. Generally most of the game code is within them, and its existence is justified by multiple concurrently working developers not having to compile the main executable all at the same time often, as it is usually a time consuming process.

@@ -1,4 +1,4 @@
-# 7.1 - Optimal Setup for Modding
+# X.1 - Optimal Setup for Modding
 As it may be tiring to always pack files for each edit being made, here is a simple table of things to do to remedy that process.
 
 ## Batch Script File

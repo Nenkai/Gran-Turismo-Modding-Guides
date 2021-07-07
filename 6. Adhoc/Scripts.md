@@ -1,4 +1,4 @@
-# 6.1 - Adhoc Scripts
+# 6.2 - Adhoc Scripts
 
 As explained in the introduction, Adhoc Scripts are responsible for roughly 99% of the gameplay logic. They can be edited, but it is a difficult process as you will have to deal with hex-editing instructions.
 

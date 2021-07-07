@@ -1,4 +1,4 @@
-# X.1 Gran Turismo 5/6 - AppOpt System/Command
+# X.2 Gran Turismo 5/6 - AppOpt System/Command
 Both games allow command-line arguments to be provided to control the game at will.
 One of them lets you stream game contents over your PC, without a volume required **(GT6 only**).
 
