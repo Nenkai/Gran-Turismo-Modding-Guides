@@ -10,7 +10,7 @@ Modding guides for Gran Turismo. Mostly intended for PS3-era Gran Turismo (GT5, 
 * If modding GT6: [GT6 Mod Base](http://www.mediafire.com/folder/8d08of132m00y/GT6+Mod+Base) to use as base - extract it later on and use it to make your mod - **for 1.22/latest only.**
 
 ## ⚠️ Important Notice
-⚠️FOR GT6, IF USING RPCS3, CFW OR HAVE CFW CAPABILITIES, CONSIDER USING [FSRoot](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/X.%20Other/Command_Line_Arguments_FSRoot.md). It allows you to mod the game in real time without any volume at all. A PS3 with the REBUG 4.84 D-REX CFW is required, kernel converted to DEX, EBOOT converted to Debug, and PS3 SDK available and installed on your PC (if no emulator). This drastically helps modding/testing much more quickly.
+⚠️**FOR GT6, IF USING RPCS3, CFW OR HAVE CFW CAPABILITIES, CONSIDER USING [FSRoot](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/X.%20Other/Command_Line_Arguments_FSRoot.md).** It allows you to mod the game in real time without any volume at all. A PS3 with the REBUG 4.84 D-REX CFW is required, kernel converted to DEX, EBOOT converted to Debug, and PS3 SDK available and installed on your PC (if no emulator). This drastically helps modding/testing much more quickly.
 
 If so, you can skip packing section and come back to it later when you are ready to build a mod for others to play.
 
