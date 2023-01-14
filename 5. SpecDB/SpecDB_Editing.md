@@ -47,14 +47,14 @@ Table Name| Description
 
 TODO cover more tables
 
-## 2. Important Information
+## 3. Important Information
 * Car codes are the car's row ID in `GENERIC_CAR`.
 * `label` is what the game uses to identify a car.
 * `category` column is the part's upgrade level. 
 * The model code i.e `00080012` is made up of 2 parts, the first 4 digits being the maker, `0008` being Polyphony Digital, and the last 4 being the car's code.
 * To link all part upgrades of a car in GT5, files named `PartsInfo.tbd` and `PartsInfo.tbi` are used. They are important as without them, going into car tuning settings will softlock due to missing parts. The SpecDB Editor will allow you to rebuild it.
 
-## 3. Adding a Car to the Game
+## 4. Adding a Car to the Game
 TODO
 
 * `car/race/<model_file>` model must exist or creating a car thumbnail, or going into a race will hard crash the game.
