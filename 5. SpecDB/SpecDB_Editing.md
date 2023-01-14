@@ -5,7 +5,13 @@ Its structure is the same as an ordinary database.
 * Gran Turismo 4/5/PSP uses their own formats, which can be edited with the [SpecDB Editor].(https://github.com/Nenkai/GT-SpecDB-Editor)
 * Gran Turismo 6 uses SQLite which can be edited with any SQLite editor such as [SQLiteStudio](https://sqlitestudio.pl/), however, it is encrypted.
 
-## 1. Tables
+## 1. Decrypting/Encrypting the SpecDB (GT6)
+With [GTToolsSharp](https://github.com/Nenkai/GTToolsSharp), decrypting (and re-encrypting) the SpecDB is done through one single command:
+* `GTToolsSharp crypt -g GT6 -i DB0106.dat --salsacrypt 81CE293873B342F4C96E850C977CBF7F9DF674DAC007CA1951B821509F3ADFA4`
+
+This command will decrypt or encrypt the SpecDB file using the specified key. (This key is normally found in `scripts/gt6/SpecDatabaseUtil.ad`).
+
+## 2. Tables
 
 Table Name| Description
 ------------ | ------------- | 
