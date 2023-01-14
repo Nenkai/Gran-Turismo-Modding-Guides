@@ -43,7 +43,8 @@ Modding guides for PS3-era Gran Turismo.
 	5. Playlist Editing
 
 5. [SpecDB/Car Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/5.%20SpecDB/SpecDB_Editing.md)
-	1. [Introduction](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/5.%20SpecDB/SpecDB_Editing.md)
+        1. [Decryption (GT6)](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/5.%20SpecDB/SpecDB_Editing.md#50-specdb---car-specifications)
+	2. [Database Tables](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/5.%20SpecDB/SpecDB_Editing.md#2-tables)
 
 6. [The Adhoc Script Language/System](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/Introduction.md)
 	1. [Introduction](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/Introduction.md)
