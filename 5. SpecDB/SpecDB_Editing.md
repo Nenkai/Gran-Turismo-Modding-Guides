@@ -2,8 +2,10 @@
 The SpecDB is the name of the database that Polyphony Digital uses to store all car specifications, and other extra things. 
 Its structure is the same as an ordinary database.
 
-* Gran Turismo 4/5/PSP uses their own formats, which can be edited with the [SpecDB Editor].(https://github.com/Nenkai/GT-SpecDB-Editor)
-* Gran Turismo 6 uses SQLite which can be edited with any SQLite editor such as [SQLiteStudio](https://sqlitestudio.pl/), however, it is encrypted.
+* Gran Turismo 4/5/PSP uses their own formats, which can be edited with the [SpecDB Editor](https://github.com/Nenkai/GT-SpecDB-Editor). 
+  * It is also possible to convert said databases to SQLite for easier browsing.
+  * Some major notes: Saving the databases is done uncompressed as database compression is not figured. It may causes crashes in GT4 or GTPSP due to not having enough memory.
+* Gran Turismo 6 uses SQLite which can be edited with any SQLite editor such as [SQLiteStudio](https://sqlitestudio.pl/), it is required to decrypt it before viewing and editing it.
 
 ## 1. Decrypting/Encrypting the SpecDB (GT6)
 With [GTToolsSharp](https://github.com/Nenkai/GTToolsSharp), decrypting (and re-encrypting) the SpecDB is done through one single command:
