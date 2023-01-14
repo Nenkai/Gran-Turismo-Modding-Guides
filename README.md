@@ -1,5 +1,5 @@
-# Gran-Turismo-5-6-Modding-Guides
-Modding guides for PS3-era Gran Turismo.
+# Gran Turismo Modding guides
+Modding guides for Gran Turismo. Mostly intended for PS3-era Gran Turismo (GT5, GT6).
 
 ## Prerequisites
 * Understanding how Command Prompt/`cmd` works and openning it in a current openned folder.
