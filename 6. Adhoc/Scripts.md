@@ -1,8 +1,21 @@
 # 6.2 - Adhoc Scripts
 
-As explained in the introduction, Adhoc Scripts are responsible for roughly 99% of the gameplay logic. They can be edited, but it is a difficult process as you will have to deal with hex-editing instructions.
+As explained in the introduction, Adhoc Scripts are responsible for roughly 99% of the gameplay logic. An on-going effort to translate compiled scripts into compilable versions is available at [OpenAdhoc](https://github.com/Nenkai/OpenAdhoc).
 
-To begin viewing them, you can use [GTAdhocTools](https://github.com/Nenkai/GTAdhocTools) and drag any `.adc` file into it. This should output a `.ad` and `.strings` file next to the source file.
+Scripts that have not been reverse-engineered can be edited, but it is a difficult process as you will have to deal with hex-editing instructions.
+
+Most of the operations are done through the [GTAdhocToolchain](https://github.com/Nenkai/GTAdhocToolchain).
+
+## Editing and recompiling scripts
+
+Using the toolchain directly, scripts can be compiled using the .yaml file.
+- `adhoc build -i <.ad source file or .yaml project file>`
+
+Or if you also have installed the VS Code extension provided:
+- "Run Build Task (CTRL+SHIFT+B)" with the VS Code Adhoc Extension on any source file or project file.
+
+## Editing scripts from compiled binaries (advanced)
+To begin viewing them, drag any `.adc` file onto the toolchain executable. This should output a `.ad` and `.strings` file next to the source file.
 
 The `.ad` file can be viewed in any text editor, preferably Notepad++. In it, you will find the source code in an [Assembly](https://en.wikipedia.org/wiki/Assembly_language) form. Adhoc Scripts are generally high level, but still contains stack handling, scopes, etc. Think of it as being similar to [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)).
 
@@ -23,7 +36,7 @@ There is no compiler as of writing this, and the only way to edit the code is by
 * Go to the copied offset. You will be pointed to the instruction's type, the 4 bytes before it being the instruction's line number, and the next bytes after it being the instruction data (if applicable).
 * Edit the instruction data if applicable. It varies between instruction types and are all documented [here](https://github.com/Nenkai/GTAdhocTools/tree/master/GTAdhocParser/Instructions).
 
-## Example
+### Example
 With that in mind, here is a basic example for editing a constant value.
 
     209DA|  21| 17| INT_CONST: 1024 (0x400)
@@ -32,7 +45,7 @@ Let's say you wanted to edit 1024 to 500000. You would open the `.adc` file, go 
 
 To verify that the change was made correctly, simply just dissasemble the edited file again. If no error shows up, you are good.
 
-# Notes
+### Notes
 Obviously there are more complex instructions and used incorrectly, can break the game loop. Depending on where it happens, the game may still continue to run. For instance, if the game crashed while in the middle of a menu, chances are the adhoc will crash and simply restart the project. However it crashes during its loading, this is essentially a softlock.
 
 One thing to look for in Adhoc when editing :
