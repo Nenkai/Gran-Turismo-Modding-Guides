@@ -9,6 +9,11 @@ Modding guides for Gran Turismo. Mostly intended for PS3-era Gran Turismo (GT5, 
 * Knowing how to FTP inside your console.
 * If modding GT6: [GT6 Mod Base](http://www.mediafire.com/folder/8d08of132m00y/GT6+Mod+Base) to use as base - extract it later on and use it to make your mod - **for 1.22/latest only.**
 
+## ⚠️ Important Notice
+If you are on RPCS3 or using a CFW PS3, it is recommended to use the [FSRoot](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/X.%20Other/Command_Line_Arguments_FSRoot.md) method to start modding the game as it allows modding by editing files directly.
+
+If so, you can skip packing section and come back to it later when you are ready to build a mod for others to play.
+
 ## Table of Contents
 0. [Dealing with file unpacking/repacking, understanding PDIPFS](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/0.%20Understanding%20PDIPFS/Understanding_PDIPFS.md)
 	1. [Unpacking](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/0.%20Understanding%20PDIPFS/Understanding_PDIPFS.md#unpacking)
@@ -51,9 +56,9 @@ Modding guides for Gran Turismo. Mostly intended for PS3-era Gran Turismo (GT5, 
 	2. [Editing Scripts](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/Scripts.md)
 	3. [UI Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/UI.md)
 	4. [GPB Editing (Project Resources)](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/GPB_Resources.md)
-X. Useful Resources
-	1. [Optimal Modding Setup](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/X.%20Other/Optimal_Setup_For_Modding.md)
-	2. [Command Line Arguments & FSRoot](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/X.%20Other/Command_Line_Arguments_FSRoot.md)
+* X. Useful Resources
+  * [Optimal Modding Setup](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/X.%20Other/Optimal_Setup_For_Modding.md)
+  * [Command Line Arguments & FSRoot](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/X.%20Other/Command_Line_Arguments_FSRoot.md)
 
 ## Credits
 - Nenkai#9075 - Base Guide
