@@ -12,7 +12,7 @@ Modding guides for Gran Turismo. Mostly intended for PS3-era Gran Turismo (GT5, 
 ## Table of Contents
 0. [Dealing with file unpacking/repacking, understanding PDIPFS](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/0.%20Understanding%20PDIPFS/Understanding_PDIPFS.md)
 	1. [Unpacking](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/0.%20Understanding%20PDIPFS/Understanding_PDIPFS.md#unpacking)
-	2. [Repacking](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/0.%20Understanding%20PDIPFS/Understanding_PDIPFS.md#packing)
+	2. [(Re)packing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/0.%20Understanding%20PDIPFS/Understanding_PDIPFS.md#packing)
 	3. [Removing Files from the Game](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/0.%20Understanding%20PDIPFS/Understanding_PDIPFS.md#removing-files-from-the-game)
 	4. [Advanced Notes](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/0.%20Understanding%20PDIPFS/Understanding_PDIPFS.md#technical-details-about-pdipfs-advanced)
 
