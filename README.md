@@ -58,9 +58,10 @@ If so, you can skip packing section and come back to it later when you are ready
 	4. [GPB Editing (Project Resources)](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/GPB_Resources.md)
 
 7. [Movies](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md)
-	1. [Required Files](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md#required-files)
-	2. [Creating the PAM](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md#creating-the-pam)
-	3. [(TODO) Encrypting the file](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md#encrypting-the-file)
+	1. [Requirements](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md#required-files)
+	2. [Converting videos to convert to PAM](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md#preparing-files)
+	3. [Creating the PAM](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md#creating-the-pam)
+	4. [(TODO) Encrypting the file](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md#encrypting-the-file)
 	
 * X. Useful Resources
   * [(GT6) Folder Structure](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/X.%20Other/GT6_FileStructure.txt)
