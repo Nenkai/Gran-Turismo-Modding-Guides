@@ -9,6 +9,7 @@
       ..
     info - Car information file
     interior - Interior model
+    meter - Strobe files (converted from flash .swf) handling car speedometers/dash
 
 /carparts - Model files for car parts
   /hq - High quality models
@@ -88,9 +89,9 @@
   /gp_cache - Serialized events from XML to binary (happens through adhoc with GameParameterUtil::createCacheForRelease) - Names depends on whats inside each fgp
   /<branch_name>
     /arcade
-      /autodemo - Autodemo files
-      /events - GT Mode events, missions & more
-      /license - License events
+    /autodemo - Autodemo files
+    /events - GT Mode events, missions & more
+    /license - License events
       
 /icon - Save game icons
   
