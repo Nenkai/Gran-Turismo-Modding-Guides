@@ -1,0 +1,151 @@
+/car - Car models & wheels for each car. Depends on ModelCode in MODEL_INFO table
+  /XXXX - Unique identifier for each manufacturer/tuner
+    /XXXX - Unique identifier for each car
+    /hq - High quality model for menus
+      body - Model file
+      body_s - Streamed and compressed model data (polygons, etc)
+      wheel - Wheel model
+    /race - Model for races
+      ..
+    info - Car information file
+    interior - Interior model
+
+/carparts - Model files for car parts
+  /hq - High quality models
+    heXXX - Custom Rim Model - XXX is ID from 
+    htXXX - Custom Rim Model - If ID is >= 1000
+    weXXX - Wind End Model
+    wmXXX - Wind Mount Model
+    wpXXX - Wing Plane Model
+    wsXXX - Wing Stays Model
+  /image - Images for car parts
+    [Undocumented files]
+  /race - Race models (refer to hq)
+  /wheel_thumb - Wheel thumbnails
+    XXX_YY - XXX = ID from WHEEL_EX, YY = Color Number (refer to NumColor in WHEEL_EX table) - WHEEL_EX stands for exchange
+  /wing_thumb - Wing thumbnails
+    XXX_YYY - XXX = Parts Type from CUSTOM_WING, YYY = PartsID from CUSTOM_WING table
+
+/carsound - All car sounds (engine, turbo, horns, start). All IDs depends on soundNum from ENGINE table.
+  /aes - Overrides any other specified sounds
+  /engine - Engine sounds
+  /normal0 - Cars with no turbo, for the stock level exhaust (non-turbo includes supercharged and electric vehicles)
+  /normal1 - For the sport level exhaust
+  /normal2 - For the semi-racing level exhaust
+  /normal3 - For the racing level exhaust
+  /se - Vehicle sound effects such as horns
+  /start - Vehicle starter sounds (used when switching car)
+  /turbo0 - Turbocharged cars, for the stock level exhaust
+  /turbo1 - For the sport level exhaust
+  /turbo2 - For the semi-racing level exhaust
+  /turbo3 - For the racing level exhaust
+  
+/character 
+  [undocumented]
+  
+/crowd - Crowd packs for each course
+  xYYYZZ - x = Course type, Y = CourseID, Z = unknown
+  
+/cars - Course files
+  XXXX - Course, from COURSE table
+  .ad = Autodrive
+  .cam = Camera positions & behavior
+  .cinf = Course Info (Drift sections & gps stuff)
+  .envptr = Environment Parameter (Mostly weather & time of day stuff)
+  .envsky = Undocumented
+  .esp = Autodrive Special
+  .layout = Gadgets
+  .lv = Vision List
+  .lv0 = Vision List (Unknown)
+  .map = Minimap Model
+  .occluder = Unknown
+  .patch = Unknown
+  .road = Unknown
+  .rwy = Runway (Collision, road boundaries & surface)
+  .shapestream = ZLib Compressed & streamed mesh data
+  .sky = Unknown
+  .texstream = ZLib Compressed & streamed textures
+  .vvls = Unknown
+  x = Main model "pack", lods, contains most crucial course definition
+  
+/database - Database files
+  /<branch_name>/menudb.dat - SQLite file handling most menu related data, Salsa encrypted by default
+  gt6movie/caption.dat - SQLite file holding movie captions, Salsa encrypted by default
+  
+/description - Car descriptions
+  /<branch_name>
+    <2 char region code>.rt2 - Localization file
+
+/effect
+  [undocumented]
+  
+/font - Game fonts
+  /logo - Logos, which can be seen in the manual menu
+  /vec - Fonts as vector format
+    fontset_<REGION>.txt files - Defines all available fonts for use
+	
+/game_parameter - Game events & Autodemos
+  /gp_cache - Serialized events from XML to binary (happens through adhoc with GameParameterUtil::createCacheForRelease) - Names depends on whats inside each fgp
+  /<branch_name>
+    /arcade
+      /autodemo - Autodemo files
+      /events - GT Mode events, missions & more
+      /license - License events
+      
+/icon - Save game icons
+  
+/motion
+ [undocumented]
+ 
+/movies - Movie files, in PAMF format (encrypted beforehand). Depends on t_movie table from menudb.
+    
+/piece - Most game images
+
+/products - Adhoc scripts & widgets defining all usable widgets as prototypes
+
+/projects - All game menus.
+
+/rtext - All localized game text (not car descriptions)
+  /common - Common game text
+  /manual - Text for the manual menu
+  
+/scene - Scene data
+  /misc - Miscellaneous data used by scenes
+  /script - Files that set up a scene. May be in text format, or EVS (EventSchedule) format. Names are found from SCENE_ALIAS table.
+  
+/scripts - Adhoc scripts.
+  /<branch_name>
+    main.adc - First script executed on boot.
+    /util - Utility scripts
+    /global_status - Defines save game nodes
+    
+/sky 
+  [undocumented]
+  
+/sound_gt - All game sounds
+  /etc - Sound setup files
+    se_master.pmf - Controls volumes
+    car_sound_gt5.pmf - Controls car sounds
+  /guide - Additional sounds for events
+    moon - Moon sounds
+    vettel - Vettel sounds
+  /library - Defines soundtracks and playlists in the game
+    GT6.lib - Main library file
+  /se - All sound effects
+  /track - All musics. Vgmstream can play those.
+
+/specdb - Car specification databases.
+  <NAME>
+    /JP
+      CarName.dat - Car name file for japanese
+    /US
+      CarName.dat Car name file (any other region)
+    DBXXXX.dat - Main sqlite database file, normally salsa encrypted. XXXX is version (major, minor)
+
+/ted - Track Editor samples
+  /<branch_name>
+    .ted
+
+/tire - Tire models
+  /hq - High quality tires, for menus
+  /race - Tire models for race
