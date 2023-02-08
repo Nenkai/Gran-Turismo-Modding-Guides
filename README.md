@@ -56,7 +56,14 @@ If so, you can skip packing section and come back to it later when you are ready
 	2. [Editing Scripts](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/Scripts.md)
 	3. [UI Editing](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/UI.md)
 	4. [GPB Editing (Project Resources)](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/6.%20Adhoc/GPB_Resources.md)
+
+7. [Movies](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md)
+	1. [Required Files](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md#required-files)
+	2. [Creating the PAM](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md#creating-the-pam)
+	3. [(TODO) Encrypting the file](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md#encrypting-the-file)
+	
 * X. Useful Resources
+  * [(GT6) Folder Structure](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/X.%20Other/GT6_FileStructure.txt)
   * [Optimal Modding Setup](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/X.%20Other/Optimal_Setup_For_Modding.md)
   * [Command Line Arguments & FSRoot](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/X.%20Other/Command_Line_Arguments_FSRoot.md)
 
