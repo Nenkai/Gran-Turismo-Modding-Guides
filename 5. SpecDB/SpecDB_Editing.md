@@ -9,7 +9,7 @@ Its structure is the same as an ordinary database.
 
 ## 1. Decrypting/Encrypting the SpecDB (GT6)
 With [GTToolsSharp](https://github.com/Nenkai/GTToolsSharp), decrypting (and re-encrypting) the SpecDB is done through one single command:
-* `GTToolsSharp crypt -g GT6 -i DB0106.dat --salsacrypt 2D9EE83E63120EB25DF4981EE73C3BE194D0F059DE50C8D4FCB66C10D3EDC549`
+* `GTToolsSharp cryptsalsa -i DB0106.dat --salsacrypt 2D9EE83E63120EB25DF4981EE73C3BE194D0F059DE50C8D4FCB66C10D3EDC549`
 
 This command will decrypt or encrypt the SpecDB file using the specified key. (This key is normally found in `scripts/gt6/SpecDatabaseUtil.ad`).
 
