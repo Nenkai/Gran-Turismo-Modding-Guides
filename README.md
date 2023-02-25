@@ -62,6 +62,10 @@ If so, you can skip packing section and come back to it later when you are ready
 	2. [Converting videos to convert to PAM](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md#preparing-files)
 	3. [Creating the PAM](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md#creating-the-pam)
 	4. [(TODO) Encrypting the file](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/7.%20Movies/Movies.md#encrypting-the-file)
+
+8. [Fonts](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/8.%20Fonts/Fonts.md)
+	1. [Requirements](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/8.%20Fonts/Fonts.md#required-files)
+	2. [Conversion and Usage](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/8.%20Fonts/Fonts.md#conversion--usage)
 	
 * X. Useful Resources
   * [(GT6) Folder Structure](https://github.com/Nenkai/Gran-Turismo-Modding-Guides/blob/main/X.%20Other/GT6_FileStructure.txt)
